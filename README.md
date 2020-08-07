@@ -40,13 +40,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 -   [ ] Mention two parts of Express that you learned about this week.
 
+1.Express Helpers.
+2.Express routing.
+
 -   [ ] Describe Middleware?
+
+Something that is invoked before the final request handler.
 
 -   [ ] Describe a Resource?
 
+A supply of something.
+
 -   [ ] What can the API return to help clients know if a request was successful?
 
+A status code 200.
+
 -   [ ] How can we partition our application into sub-applications?
+
+Do the const sub-app = express() in a seperate file/folder and server.use("/route", sub-app) in your server.
 
 ## Minimum Viable Product
 
